@@ -9,6 +9,6 @@ data class Nutriments(
     val energyKcal100g: Double,
     @field:Json(name = "fat_100g")
     val fat100g: Double,
-    @field:Json(name = "protein_100g")
-    val protein100g: Double,
+    @field:Json(name = "proteins_100g")
+    val proteins100g: Double,
 )

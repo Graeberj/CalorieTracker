@@ -68,9 +68,7 @@ fun SearchScreen(
             .padding(spacing.spaceMedium)
     ) {
         Text(
-            text = stringResource(
-                id = R.string.add_meal, mealName
-            ),
+            text = stringResource(id = R.string.add_meal, mealName),
             style = MaterialTheme.typography.h2
         )
         Spacer(modifier = Modifier.height(spacing.spaceMedium))
@@ -79,7 +77,9 @@ fun SearchScreen(
             onValueChange = {
                 viewModel.onEvent(SearchEvent.OnQueryChange(it))
             },
+            shouldShowHint = state.isHintVisible,
             onSearch = {
+                keyboardController?.hide()
                 viewModel.onEvent(SearchEvent.OnSearch)
             },
             onFocusChanged = {
@@ -102,6 +102,7 @@ fun SearchScreen(
                         )
                     },
                     onTrack = {
+                        keyboardController?.hide()
                         viewModel.onEvent(
                             SearchEvent.OnTrackFoodClick(
                                 food = food.food,
