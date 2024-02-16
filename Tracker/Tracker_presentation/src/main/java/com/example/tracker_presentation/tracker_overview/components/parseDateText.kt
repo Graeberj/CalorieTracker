@@ -2,7 +2,7 @@ package com.example.tracker_presentation.tracker_overview.components
 
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.res.stringResource
-import com.plcoding.core.R
+import com.graeberj.core.R
 import java.time.LocalDate
 import java.time.format.DateTimeFormatter
 

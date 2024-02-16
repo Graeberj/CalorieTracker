@@ -6,7 +6,7 @@ plugins {
 apply(from = "$rootDir/compose-module.gradle")
 
 android {
-    namespace = "com.plcoding.tracker_presentation"
+    namespace = "com.graeberj.tracker_presentation"
 }
 
 dependencies {

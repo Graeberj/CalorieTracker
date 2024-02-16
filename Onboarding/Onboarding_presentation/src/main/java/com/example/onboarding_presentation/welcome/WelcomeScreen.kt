@@ -15,7 +15,7 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
 import com.example.core_ui.LocalSpacing
 import com.example.onboarding_presentation.components.ActionButton
-import com.plcoding.core.R
+import com.graeberj.core.R
 
 @Composable
 fun WelcomeScreen(

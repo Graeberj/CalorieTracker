@@ -6,6 +6,6 @@ plugins {
 apply(from = "$rootDir/compose-module.gradle")
 
 android {
-    namespace = "com.plcoding.core_ui"
+    namespace = "com.graeberj.core_ui"
 }
 

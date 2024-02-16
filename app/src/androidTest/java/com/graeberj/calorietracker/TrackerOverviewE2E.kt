@@ -1,4 +1,4 @@
-package com.plcoding.calorytracker
+package com.graeberj.calorietracker
 
 import android.annotation.SuppressLint
 import androidx.compose.foundation.layout.fillMaxSize
@@ -42,9 +42,9 @@ import com.example.tracker_presentation.search.SearchViewModel
 import com.example.tracker_presentation.tracker_overview.TrackerOverviewScreen
 import com.example.tracker_presentation.tracker_overview.TrackerOverviewViewModel
 import com.google.common.truth.Truth.assertThat
-import com.plcoding.calorytracker.navigation.Route
-import com.plcoding.calorytracker.repository.TrackerRepositoryFake
-import com.plcoding.calorytracker.ui.theme.CaloryTrackerTheme
+import com.graeberj.calorietracker.navigation.Route
+import com.graeberj.calorietracker.repository.TrackerRepositoryFake
+import com.graeberj.calorietracker.ui.theme.CalorieTrackerTheme
 import dagger.hilt.android.testing.HiltAndroidRule
 import dagger.hilt.android.testing.HiltAndroidTest
 import io.mockk.InternalPlatformDsl.toStr
@@ -106,7 +106,7 @@ class TrackerOverviewE2E {
             filterDigits = FilterDigits()
         )
         composeRule.setContent {
-            CaloryTrackerTheme {
+            CalorieTrackerTheme {
                 val scaffoldState = rememberScaffoldState()
                 navController = rememberNavController()
                 Scaffold(

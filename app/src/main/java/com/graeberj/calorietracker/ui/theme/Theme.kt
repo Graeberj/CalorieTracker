@@ -1,4 +1,4 @@
-package com.plcoding.calorytracker.ui.theme
+package com.graeberj.calorietracker.ui.theme
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material.MaterialTheme
@@ -16,7 +16,7 @@ import com.example.core_ui.LocalSpacing
 import com.example.core_ui.MediumGray
 import com.example.core_ui.Orange
 import com.example.core_ui.TextWhite
-import com.plcoding.calorytrackerprep.ui.theme.Typography
+import com.graeberj.calorietrackerprep.ui.theme.Typography
 
 private val DarkColorPalette = darkColors(
     primary = BrightGreen,
@@ -43,7 +43,7 @@ private val LightColorPalette = lightColors(
 )
 
 @Composable
-fun CaloryTrackerTheme(
+fun CalorieTrackerTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
     content: @Composable() () -> Unit
 ) {

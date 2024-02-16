@@ -28,7 +28,7 @@ import com.example.core_ui.LocalSpacing
 import com.example.tracker_domain.model.MealType
 import com.example.tracker_presentation.search.components.SearchTextField
 import com.example.tracker_presentation.search.components.TrackableFoodItem
-import com.plcoding.core.R
+import com.graeberj.core.R
 import java.time.LocalDate
 
 @OptIn(ExperimentalComposeUiApi::class)

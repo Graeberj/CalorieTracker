@@ -3,7 +3,7 @@ package com.example.tracker_presentation.tracker_overview
 import androidx.annotation.DrawableRes
 import com.example.core.util.UiText
 import com.example.tracker_domain.model.MealType
-import com.plcoding.core.R
+import com.graeberj.core.R
 
 data class Meal(
     val name: UiText,

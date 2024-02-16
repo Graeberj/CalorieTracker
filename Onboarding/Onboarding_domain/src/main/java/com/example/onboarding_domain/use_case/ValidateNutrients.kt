@@ -1,7 +1,7 @@
 package com.example.onboarding_domain.use_case
 
 import com.example.core.util.UiText
-import com.plcoding.core.R
+import com.graeberj.core.R
 
 class ValidateNutrients {
 

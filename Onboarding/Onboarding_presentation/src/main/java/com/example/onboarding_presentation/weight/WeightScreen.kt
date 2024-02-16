@@ -22,7 +22,7 @@ import com.example.core_ui.LocalSpacing
 import com.example.onboarding_presentation.components.ActionButton
 import com.example.onboarding_presentation.components.UnitTextField
 import com.example.onboarding_presentation.weight.WeightViewModel
-import com.plcoding.core.R
+import com.graeberj.core.R
 
 @Composable
 fun WeightScreen(

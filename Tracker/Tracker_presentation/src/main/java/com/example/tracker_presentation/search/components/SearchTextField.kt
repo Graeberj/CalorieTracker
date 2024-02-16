@@ -28,7 +28,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.unit.dp
 import com.example.core_ui.LocalSpacing
-import com.plcoding.core.R
+import com.graeberj.core.R
 
 @Composable
 fun SearchTextField(

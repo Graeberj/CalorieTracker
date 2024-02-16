@@ -13,7 +13,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
-import com.plcoding.core.R
+import com.graeberj.core.R
 import java.time.LocalDate
 
 @Composable

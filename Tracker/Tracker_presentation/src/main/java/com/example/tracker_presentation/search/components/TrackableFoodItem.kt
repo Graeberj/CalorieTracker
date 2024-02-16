@@ -44,7 +44,7 @@ import coil.compose.rememberImagePainter
 import com.example.core_ui.LocalSpacing
 import com.example.tracker_presentation.components.NutrientInfo
 import com.example.tracker_presentation.search.TrackableFoodUiState
-import com.plcoding.core.R
+import com.graeberj.core.R
 
 @OptIn(ExperimentalCoilApi::class)
 @Composable

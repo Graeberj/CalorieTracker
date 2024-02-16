@@ -27,7 +27,7 @@ import androidx.compose.ui.unit.sp
 import com.example.core_ui.LocalSpacing
 import com.example.tracker_presentation.components.NutrientInfo
 import com.example.tracker_presentation.components.UnitDisplay
-import com.plcoding.core.R
+import com.graeberj.core.R
 
 @Composable
 fun ExpandableMeal(

@@ -1,4 +1,4 @@
-package com.plcoding.calorytracker
+package com.graeberj.calorietracker
 
 import android.annotation.SuppressLint
 import android.os.Bundle
@@ -14,7 +14,7 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
 import com.example.core.domain.preferences.Preferences
-import com.plcoding.calorytracker.navigation.Route
+import com.graeberj.calorietracker.navigation.Route
 import com.example.onboarding_presentation.activity_level.ActivityLevelScreen
 import com.example.onboarding_presentation.age.AgeScreen
 import com.example.onboarding_presentation.gender.GenderScreen
@@ -25,7 +25,7 @@ import com.example.onboarding_presentation.nutrient_goal.NutrientGoalScreen
 import com.example.onboarding_presentation.welcome.WelcomeScreen
 import com.example.tracker_presentation.search.SearchScreen
 import com.example.tracker_presentation.tracker_overview.TrackerOverviewScreen
-import com.plcoding.calorytracker.ui.theme.CaloryTrackerTheme
+import com.graeberj.calorietracker.ui.theme.CalorieTrackerTheme
 import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject
 
@@ -41,7 +41,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         val shouldShowOnboarding = preferences.loadShouldSaveOnboarding()
         setContent {
-            CaloryTrackerTheme {
+            CalorieTrackerTheme {
                 val navController = rememberNavController()
                 val scaffoldState = rememberScaffoldState()
                 Scaffold(

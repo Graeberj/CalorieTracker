@@ -18,7 +18,7 @@ import com.example.tracker_presentation.tracker_overview.components.AddButton
 import com.example.tracker_presentation.tracker_overview.components.DaySelector
 import com.example.tracker_presentation.tracker_overview.components.NutrientHeader
 import com.example.tracker_presentation.tracker_overview.components.TrackedFoodItem
-import com.plcoding.core.R
+import com.graeberj.core.R
 
 @Composable
 fun TrackerOverviewScreen(

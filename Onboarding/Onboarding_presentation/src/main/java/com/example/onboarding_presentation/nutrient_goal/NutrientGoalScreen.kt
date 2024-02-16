@@ -21,7 +21,7 @@ import com.example.core.util.UiEvent
 import com.example.core_ui.LocalSpacing
 import com.example.onboarding_presentation.components.ActionButton
 import com.example.onboarding_presentation.components.UnitTextField
-import com.plcoding.core.R
+import com.graeberj.core.R
 
 @Composable
 fun NutrientGoalScreen(

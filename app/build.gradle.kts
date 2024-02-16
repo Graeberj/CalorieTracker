@@ -6,7 +6,7 @@ plugins {
 }
 
 android {
-    namespace = "com.plcoding.calorytracker"
+    namespace = "com.graeberj.calorietracker"
     compileSdk = ProjectConfig.compileSdk
 
     defaultConfig {
@@ -16,7 +16,7 @@ android {
         versionCode = ProjectConfig.versionCode
         versionName = ProjectConfig.versionName
 
-        testInstrumentationRunner = "com.plcoding.calorytracker.HiltTestRunner"
+        testInstrumentationRunner = "com.graeberj.calorietracker.HiltTestRunner"
         vectorDrawables {
             useSupportLibrary = true
         }
