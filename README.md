@@ -1,4 +1,4 @@
-Calorie Tracker
+# Calorie Tracker
 
 Calorie Tracker is a comprehensive application designed to help users monitor their caloric intake 
 and manage their diet effectively. Built with a multi-module architecture, it ensures scalability, 
@@ -7,7 +7,7 @@ database of food nutritional information. This integration allows users to easil
 food items, making tracking calories and nutrients more efficient and accurate.
 
 
-Modules Overview
+## Modules Overview
 
 Core: Shared utilities, data models, and fundamental components across the application.
 Onboarding Domain: Business logic for the onboarding process.
@@ -16,13 +16,13 @@ Tracker Data: Data handling for tracking features, including API calls and local
 Tracker Domain: Business logic for calorie tracking and dietary management.
 Tracker Presentation: User interface components and logic for the tracking features.
 
-Features
+## Features
 
 Daily calorie tracking
 Nutritional information
 Progress tracking and reports
 
-Technology Stack
+## Technology Stack
 
 Kotlin for core development
 Retrofit for network operations
@@ -33,7 +33,13 @@ Dagger/Hilt for dependency injection
 Future Enhancements
 
 Currently, the Calorie Tracker app does not include user authentication. This is a feature I'm
-considering for future development to enhance user personalization and security. 
+considering for future development to enhance user personalization and security.
 
+# Screenshots
 
+## Home Page
+<img src="https://github.com/Graeberj/CalorieTracker/assets/73848091/83934920-6c30-4833-9b08-a2a04287de47" width="25%" alt="Home Page">
+
+## Add Meal
+<img src="https://github.com/Graeberj/CalorieTracker/assets/73848091/7db3ebdd-5b75-451b-bcaf-c5e193916cea" width="25%" alt="Add Meal">
 
